@@ -11,5 +11,4 @@ Pod::Spec.new do |s|
   s.source_files = 'SignalR.Client/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~>2.0'
-  s.dependency 'SocketRocket'
 end
